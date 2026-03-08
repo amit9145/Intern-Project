@@ -18,11 +18,11 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleSignUp = () => {
-    navigate("/signup");
+    navigate("/Intern-Project/signup");
   };
 
   const handleLogin = () => {
-    navigate("/login");
+    navigate("/Intern-Project/login");
   };
 
   return (

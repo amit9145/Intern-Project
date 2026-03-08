@@ -37,7 +37,7 @@ const CreateAccount = () => {
   const navigate = useNavigate();
 
   const handleProfile = () => {
-    navigate("/profile");
+    navigate("/Intern-Project/profile");
   };
 
   return (

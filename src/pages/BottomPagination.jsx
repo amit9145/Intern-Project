@@ -20,7 +20,7 @@ const BottomPagination = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const pages = ["/", "/login", "/signup", "/profile"];
+  const pages = ["/Intern-Project/", "/Intern-Project/login", "/Intern-Project/signup", "/Intern-Project/profile"];
   const totalPages = pages.length;
   const currentIndex = pages.indexOf(location.pathname);
 

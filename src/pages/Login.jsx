@@ -18,7 +18,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleProfile = () => {
-    navigate("/profile");
+    navigate("/Intern-Project/profile");
   };
 
   const FloatingInput = ({ label, type = "text", placeholder, className, disabled }) => {
