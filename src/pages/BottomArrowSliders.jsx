@@ -1,7 +1,7 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import { ChevronLeft, ChevronRight, House } from "lucide-react";
 
-const BottomPagination = () => {
+const BottomArrowSliders = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -41,4 +41,4 @@ const BottomPagination = () => {
     );
 };
 
-export default BottomPagination;
+export default BottomArrowSliders;

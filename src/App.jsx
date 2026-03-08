@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import CreateAccount from "./pages/CreateAccount"
 import Login from "./pages/Login"
 import Profile from "./pages/Profile";
-import BottomPagination from "./pages/BottomPagination";
+import BottomArrowSliders from "./pages/BottomArrowSliders";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           </div>
         </div>
       </div>
-      <BottomPagination />
+      <BottomArrowSliders />
     </BrowserRouter>
   );
 }
