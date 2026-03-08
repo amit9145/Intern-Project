@@ -21,19 +21,21 @@ import BottomPagination from "./pages/BottomPagination";
 function App() {
   return (
     <BrowserRouter basename="/Intern-Project">
-      <div className="min-h-screen flex items-center justify-center pb-[60px] bg-[#fafafa]">
-        <div className="relative mt-8 w-[375px] h-[890px] border border-[#e1e1e1] flex flex-col shadow-sm">
-          <div className="flex-1 overflow-y-auto">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/signup" element={<CreateAccount />} />
-              <Route path="/profile" element={<Profile />} />
-            </Routes>
+      <div className="min-h-screen bg-[#fafafa]">
+        <div className="flex items-center justify-center py-8 pb-[60px]">
+          <div className="w-[375px] h-[812px] border border-[#e1e1e1] flex flex-col shadow-sm bg-white">
+            <div className="flex-1 overflow-y-auto">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<CreateAccount />} />
+                <Route path="/profile" element={<Profile />} />
+              </Routes>
+            </div>
           </div>
         </div>
+        <BottomPagination />
       </div>
-      <BottomPagination />
     </BrowserRouter>
   );
 }
