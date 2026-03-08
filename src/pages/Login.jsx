@@ -55,7 +55,7 @@ const Login = () => {
       </div>
 
       <button
-        className="w-full bg-gray-300 h-[46px] text-white py-2 text-[16px] rounded-md transition-all duration-300 hover:bg-gray-400 hover:shadow-md active:scale-95"
+        className="w-full bg-gray-300 h-[46px] text-white py-2 text-[16px] rounded-md"
         onClick={handleProfile}
       >
         Login

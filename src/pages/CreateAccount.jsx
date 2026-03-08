@@ -74,7 +74,7 @@ const CreateAccount = () => {
 
       <button
         onClick={handleProfile}
-        className="w-full bg-[#6C25FF] text-white py-3 rounded-md mt-6 transition-all duration-300 hover:bg-[#5a20dd] hover:shadow-lg active:scale-95"
+        className="w-full bg-[#6C25FF] text-white py-3 rounded-md mt-6"
       >
         Create Account
       </button>

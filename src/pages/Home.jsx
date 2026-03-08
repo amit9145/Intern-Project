@@ -37,14 +37,14 @@ const Home = () => {
       </p>
 
       <button
-        className="w-full h-[46px] bg-[#6C25FF] text-white rounded-[6px] text-[15px] font-medium mb-3 transition-all duration-300 hover:bg-[#5a20dd] hover:shadow-lg active:scale-95"
+        className="w-full h-[46px] bg-[#6C25FF] text-white rounded-[6px] text-[15px] font-medium mb-3"
         onClick={handleSignUp}
       >
         Create Account
       </button>
 
       <button
-        className="w-full h-[46px] bg-[#CEBAFB] text-[#1D2226] rounded-[6px] text-[15px] font-semibold transition-all duration-300 hover:bg-[#b8a9e8] hover:shadow-md active:scale-95"
+        className="w-full h-[46px] bg-[#CEBAFB] text-[#1D2226] rounded-[6px] text-[15px] font-semibold"
         onClick={handleLogin}
       >
         Already Registered? Login
