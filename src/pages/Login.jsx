@@ -1,21 +1,39 @@
+/**
+ * PopX Mobile App - Login Page Component
+ * 
+ * This is the authentication screen of PopX Mobile App that includes:
+ * - Signin form with email and password fields
+ * - Floating label input design for better UX
+ * - Disabled inputs for demonstration purposes
+ * - Navigation to profile page after login
+ * - Consistent purple theme and mobile layout
+ * 
+ * @author PopX Development Team
+ * @version 1.0.0
+ */
+
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
 
-  const handleprofile = () => {
+  const handleProfile = () => {
     navigate("/profile");
   };
 
   const FloatingInput = ({ label, type = "text", placeholder, className, disabled }) => {
-
     return (
       <div className="relative bg-[#f7f8f9] mb-6">
         <label className="absolute -top-3 left-4 bg-[#f7f8f9] px-2 text-sm text-purple-600">
           {label}
         </label>
 
-        <input type={type} placeholder={placeholder} disabled={disabled} className={`w-full rounded-md border border-gray-300 bg-[#f7f8f9] px-4 py-2 text-sm text-gray-800 focus:outlin focus:border-purple-600 disabled:cursor-not-allowed ${className}`} />
+        <input
+          type={type}
+          placeholder={placeholder}
+          disabled={disabled}
+          className={`w-full rounded-md border border-gray-300 bg-[#f7f8f9] px-4 py-2 text-sm text-gray-800 focus:outline-none focus:border-purple-600 disabled:cursor-not-allowed ${className}`}
+        />
       </div>
     );
   };
@@ -38,7 +56,8 @@ const Login = () => {
 
       <button
         className="w-full bg-gray-300 h-[46px] text-white py-2 text-[16px] rounded-md"
-        onClick={handleprofile} >
+        onClick={handleProfile}
+      >
         Login
       </button>
     </div>

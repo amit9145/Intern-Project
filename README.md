@@ -1,22 +1,69 @@
-This project is a front-end UI assignment created as part of a recruitment task.
-It focuses only on design and layout implementation, with no backend or API integration.
+# PopX Mobile App
 
-Live Demo
+A modern, pixel-perfect mobile application built with React and Tailwind CSS, featuring seamless navigation and a beautiful user interface.
 
-https://dev-task-assignment.vercel.app/
+## 🚀 Features
 
-Description
+- **Mobile-First Design**: Optimized for mobile devices with centered layout
+- **Smooth Navigation**: Intuitive page transitions with bottom pagination
+- **Modern UI**: Clean, responsive design using Tailwind CSS
+- **React Router**: Client-side routing for seamless user experience
+- **Component Architecture**: Modular, reusable React components
 
-Static UI implementation based on the given requirements
+## 📱 Pages
 
-No database, authentication, or server-side logic
+- **Welcome**: Landing page with navigation to signup/login
+- **Login**: User authentication interface
+- **Signup**: Comprehensive registration form
+- **Profile**: User account settings and information
 
-Built only to demonstrate UI structure, styling, and responsiveness
+## 🛠 Tech Stack
 
-Tech Stack
+- **React 19**: Modern React with latest features
+- **React Router DOM**: Client-side routing
+- **Tailwind CSS**: Utility-first CSS framework
+- **Lucide React**: Beautiful icon library
+- **PostCSS**: CSS processing and optimization
 
-HTML
+## 🎨 Design
 
-Tailwind CSS
+- **Mobile Dimensions**: 375x812px (iPhone X/11/12 dimensions)
+- **Color Scheme**: Purple accent (#6C25FF) with gray backgrounds
+- **Typography**: Clean, readable fonts optimized for mobile
+- **Responsive**: Centered layout that works on all screen sizes
 
-React
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── CreateAccount.jsx
+│   ├── Profile.jsx
+│   └── BottomPagination.jsx
+├── App.jsx
+├── index.jsx
+└── index.css
+```
+
+## 🌟 Live Demo
+
+Coming soon to a Vercel deployment near you!
+
+---
+
+Built with ❤️ using React and Tailwind CSS

@@ -1,8 +1,20 @@
+/**
+ * PopX Mobile App - Home/Landing Page Component
+ * 
+ * This is the welcome screen of PopX Mobile App that features:
+ * - Welcome message and branding
+ * - Navigation buttons for signup and login
+ * - Mobile-optimized layout with bottom positioning
+ * - Purple primary color scheme matching PopX branding
+ * 
+ * @author PopX Development Team
+ * @version 1.0.0
+ */
+
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-
   const navigate = useNavigate();
 
   const handleSignUp = () => {
@@ -14,8 +26,7 @@ const Home = () => {
   };
 
   return (
-    <div className="h-full flex flex-col justify-end bg-[#f7f8f9]  px-6 pb-12">
-
+    <div className="h-full flex flex-col justify-end bg-[#f7f8f9] px-6 pb-12">
       <h1 className="text-[28px] font-semibold text-[#1D2226] mb-1">
         Welcome to PopX
       </h1>
@@ -27,16 +38,17 @@ const Home = () => {
 
       <button
         className="w-full h-[46px] bg-[#6C25FF] text-white rounded-[6px] text-[15px] font-medium mb-3"
-        onClick={handleSignUp} >
+        onClick={handleSignUp}
+      >
         Create Account
       </button>
 
       <button
         className="w-full h-[46px] bg-[#CEBAFB] text-[#1D2226] rounded-[6px] text-[15px] font-semibold"
-        onClick={handleLogin} >
+        onClick={handleLogin}
+      >
         Already Registered? Login
       </button>
-
     </div>
   );
 };

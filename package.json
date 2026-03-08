@@ -1,6 +1,7 @@
 {
-  "name": "popx",
-  "version": "0.1.0",
+  "name": "popx-mobile-app",
+  "version": "1.0.0",
+  "description": "A modern mobile-first React application for PopX with seamless navigation and beautiful UI",
   "private": true,
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
