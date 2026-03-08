@@ -36,7 +36,7 @@ const BottomPagination = () => {
 
   return (
     <div className="fixed bottom-0 left-0 w-full bg-[#fafafa] h-[60px] flex items-center justify-center gap-4 text-sm z-50">
-      <button onClick={() => navigate("/")}>
+      <button onClick={() => navigate("/Intern-Project/")}>
         <House className="w-5 h-5 text-gray-500 hover:text-gray-700" />
       </button>
 
