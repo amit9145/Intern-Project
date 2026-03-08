@@ -1,14 +1,3 @@
-/**
- * PopX Mobile App - Entry Point
- * 
- * This file renders the PopX Mobile App into the DOM.
- * The app is mounted on the 'root' element with React StrictMode enabled
- * for additional development warnings and checks.
- * 
- * @author PopX Development Team
- * @version 1.0.0
- */
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

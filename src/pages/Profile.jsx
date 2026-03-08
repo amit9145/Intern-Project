@@ -1,24 +1,10 @@
-/**
- * PopX Mobile App - Profile Page Component
- * 
- * This is the user profile screen of PopX Mobile App that displays:
- * - Account settings header with clean layout
- * - User profile information with avatar and camera icon
- * - User details (name, email, description)
- * - Mobile-optimized profile layout
- * - Consistent design language with other pages
- * - Lucide React icons for better visual appeal
- * 
- * @author PopX Development Team
- * @version 1.0.0
- */
-
 import React from "react";
 import { Camera } from "lucide-react";
 
 const Profile = () => {
   return (
-    <div className="h-full bg-[#f7f8f9] px-6 pt-8">
+    <div className="flex flex-col h-full bg-[#f7f8f9]">
+
       <div className="bg-white px-4 py-4 shadow-sm">
         <h1 className="text-base text-[19px] text-gray-700">
           Account Settings
@@ -29,10 +15,9 @@ const Profile = () => {
         <div className="flex items-start gap-4">
           <div className="relative">
             <img
-              src="https://randomuser.me/api/portraits/women/44.jpg"
+              src="https://randomuser.me/api/portraits/women/65.jpg"
               alt="profile"
-              className="w-16 h-16 rounded-full object-cover"
-            />
+              className="w-16 h-16 rounded-full object-cover" />
             <div className="absolute bottom-0 text-white right-0 w-4 h-5 bg-purple-500 rounded-full flex items-center justify-center">
               <Camera className="w-3 h-3" />
             </div>
@@ -57,8 +42,8 @@ const Profile = () => {
       <div className="pb-8">
         <div className="border-t border-dashed border-gray-300" />
       </div>
+
     </div>
   );
 };
-
 export default Profile;
