@@ -46,10 +46,6 @@ const BottomPagination = () => {
         className="cursor-pointer text-gray-400 hover:text-gray-600"
       />
 
-      <span className="text-gray-500">
-        {currentPage} of {totalPages}
-      </span>
-
       <ChevronRight
         onClick={goNext}
         className="cursor-pointer text-gray-400 hover:text-gray-600"
