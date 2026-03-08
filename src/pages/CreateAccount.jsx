@@ -41,7 +41,7 @@ const CreateAccount = () => {
   };
 
   return (
-    <div className="h-full flex flex-col bg-[#f7f8f9] px-6 pt-10 pb-6">
+    <div className="h-full bg-[#f7f8f9] px-6 pt-8 pb-6">
       <h1 className="text-2xl font-medium text-gray-900 mb-6">
         Create your <br /> PopX account
       </h1>

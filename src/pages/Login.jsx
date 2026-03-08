@@ -55,8 +55,8 @@ const Login = () => {
       </div>
 
       <button
-        className="w-full bg-gray-300 h-[46px] text-white py-2 text-[16px] rounded-md"
         onClick={handleProfile}
+        className="w-full bg-gray-300 h-[46px] text-white py-2 text-[16px] rounded-md"
       >
         Login
       </button>

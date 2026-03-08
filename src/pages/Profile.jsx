@@ -18,7 +18,7 @@ import { Camera } from "lucide-react";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col h-full bg-[#f7f8f9]">
+    <div className="h-full bg-[#f7f8f9] px-6 pt-8">
       <div className="bg-white px-4 py-4 shadow-sm">
         <h1 className="text-base text-[19px] text-gray-700">
           Account Settings
