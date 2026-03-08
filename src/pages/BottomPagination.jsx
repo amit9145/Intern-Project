@@ -23,7 +23,6 @@ const BottomPagination = () => {
   const pages = ["/", "/login", "/signup", "/profile"];
   const totalPages = pages.length;
   const currentIndex = pages.indexOf(location.pathname);
-  const currentPage = currentIndex + 1;
 
   const goPrev = () => {
     const prevIndex = currentIndex === 0 ? totalPages - 1 : currentIndex - 1;
